@@ -62,8 +62,16 @@
     ENCRYPTION_KEY=c34d38b3a14956121ff2170e5030b471551370178f43e5626eec58b     04a30fae2
    ```
 
-4. Run the Compose and wait for the magick.
+4. Run the Compose and wait for the magick. (usually takes 2~5 minutes to get up fully)
 
    ```Docker
    Docker compose up -d
    ```
+
+5. Go to your browser and type this in the address bar:
+
+   ```link
+   localhost:5601
+   ```
+
+   then login with the **elastic** user and your specified **.env password**
